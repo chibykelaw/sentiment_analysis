@@ -30,7 +30,6 @@ A full academic report describing the methodology, experiments, and results is i
 
 ## Repository Structure
 
-```text
 sentiment_analysis/
 ├── data/                    # Raw data files (not tracked in detail)
 │   ├── reviews_Apps_for_Android_5.training.txt
@@ -53,12 +52,39 @@ sentiment_analysis/
 ├── requirements.txt                         # Python dependencies
 └── .gitignore
 
-📊 Model Performance (from model_metrics.json)
-Model	Accuracy	Precision	Recall	F1-Score
-Naive Bayes	~0.76	~0.76	~0.76	~0.68
-SVM	~0.81	~0.79	~0.81	~0.80
-KNN	~0.75	~0.69	~0.75	~0.70
-Decision Tree	~0.69	~0.69	~0.69	~0.69
-🏆 Best Model: Linear SVM
+
+---
+
+## Model Performance (from `model_metrics.json`)
+
+| Model          | Accuracy | Precision | Recall | F1-Score |
+|----------------|----------|-----------|--------|----------|
+| Naive Bayes    | ~0.76    | ~0.76     | ~0.76  | ~0.68    |
+| SVM            | ~0.81    | ~0.79     | ~0.81  | ~0.80    |
+| KNN            | ~0.75    | ~0.69     | ~0.75  | ~0.70    |
+| Decision Tree  | ~0.69    | ~0.69     | ~0.69  | ~0.69    |
 
 SVM achieved the strongest overall performance and is used for company sentiment prediction.
+
+---
+
+## Company Sentiment Analysis (Using SVM Predictions)
+
+Average predicted sentiment score per company (1 = negative, 3 = positive):
+
+| Company | Avg Score |
+|---------|-----------|
+| AAD_1   | 2.94      |
+| AAD_2   | 2.27      |
+| AAD_3   | 1.95      |
+
+Interpretation:
+
+- AAD_1 has the most positive user sentiment  
+- AAD_3 has the lowest sentiment  
+
+---
+
+## How to Run the Project Locally
+
+### 1. Install dependencies
