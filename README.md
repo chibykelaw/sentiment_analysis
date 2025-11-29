@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80" 
+       alt="Sentiment Analysis Banner" 
+       width="100%">
+</p>
+
 # Sentiment Analysis of Android App Reviews  
 ### CIS4515 – Practical Data Analysis (Coursework 2)  
 ### MSc Data Science & Artificial Intelligence  
