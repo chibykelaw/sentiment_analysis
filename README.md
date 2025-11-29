@@ -8,6 +8,7 @@ The project builds a **sentiment analysis model** for Amazon reviews of Android 
 
 ## Project Overview
 
+```text
 The dataset contains reviews for **nine Android apps**, grouped into **three AAD companies**:
 
 - Each review has:
@@ -52,7 +53,7 @@ sentiment_analysis/
 ├── README.md
 ├── requirements.txt                         # Python dependencies
 └── .gitignore
-
+```text
 
 ---
 
