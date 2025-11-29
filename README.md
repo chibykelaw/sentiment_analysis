@@ -30,7 +30,7 @@ A full academic report describing the methodology, experiments, and results is i
 
 ## Repository Structure
 
-```text
+
 sentiment_analysis/
 ├── data/                    # Raw data files (not tracked in detail)
 │   ├── reviews_Apps_for_Android_5.training.txt
