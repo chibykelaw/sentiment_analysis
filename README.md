@@ -107,3 +107,8 @@ sentiment_analysis/
     ├── preprocess.py          # Data loading & preprocessing functions
     ├── train_models.py        # Model training & saving
     └── evaluate_models.py     # Model evaluation & company scoring
+
+▶️ Running the Project
+1. Create & activate a virtual environment
+python -m venv venv
+venv\Scripts\activate   # Windows
