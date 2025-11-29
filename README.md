@@ -31,15 +31,34 @@ A full academic report describing the methodology, experiments, and results is i
 ## Repository Structure
 
 ```text
-sentiment-analysis/
-├── README.md                # Project overview (this file)
-│
+sentiment_analysis/
 ├── data/                    # Raw data files (not tracked in detail)
 │   ├── reviews_Apps_for_Android_5.training.txt
 │   └── reviews_Apps_for_Android_5.test.txt
+├── notebooks/
+│   ├── pda_sentiment_analysis.ipynb         # Original coursework notebook
+│   └── pda_sentiment_analysis_clean.ipynb   # Clean, portfolio-ready notebook
 │
-├── notebooks/               # Jupyter notebooks
-│   └── pda_sentiment_analysis.ipynb
+├── reports/
+│   ├── sentiment_analysis_report.pdf        # Formal coursework report
+│   └── model_metrics.json                   # Saved evaluation metrics for all models
 │
-└── reports/                 # Written report(s) and generated outputs
-    └── sentiment_analysis_report.pdf
+├── src/
+│   ├── preprocess.py                        # Data loading and text cleaning
+│   ├── utils.py                             # Helper functions & metrics
+│   ├── train_models.py                      # Train sentiment models and save them
+│   └── evaluate_models.py                   # Evaluate models & company sentiment
+│
+├── README.md
+├── requirements.txt                         # Python dependencies
+└── .gitignore
+
+📊 Model Performance (from model_metrics.json)
+Model	Accuracy	Precision	Recall	F1-Score
+Naive Bayes	~0.76	~0.76	~0.76	~0.68
+SVM	~0.81	~0.79	~0.81	~0.80
+KNN	~0.75	~0.69	~0.75	~0.70
+Decision Tree	~0.69	~0.69	~0.69	~0.69
+🏆 Best Model: Linear SVM
+
+SVM achieved the strongest overall performance and is used for company sentiment prediction.
