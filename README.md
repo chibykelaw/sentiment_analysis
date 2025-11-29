@@ -1,4 +1,5 @@
 <div align="center">
+---
 # Sentiment Analysis of Android App Reviews  
 ### CIS4515 – Practical Data Analysis (Coursework 2)  
 ### MSc Data Science & Artificial Intelligence  
