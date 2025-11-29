@@ -115,3 +115,27 @@ sentiment_analysis/
 python -m venv venv
 
 venv\Scripts\activate   # Windows
+
+### 2. Install dependencies
+pip install -r requirements.txt
+
+### 3. Run preprocessing
+python src/preprocess.py
+
+### 4. Train models
+python src/train_models.py
+
+### 5. Evaluate models
+python src/evaluate_models.py
+
+---
+## 📫 Contact
+
+If you have questions or suggestions, feel free to reach out.
+
+GitHub: https://github.com/chibykelaw
+
+Email: orjichibyk@gmail.com
+
+
+
