@@ -1,10 +1,8 @@
-<div align="center">
----
 # Sentiment Analysis of Android App Reviews  
 ### CIS4515 – Practical Data Analysis (Coursework 2)  
 ### MSc Data Science & Artificial Intelligence  
 #### Edge Hill University
-**Author:** Chibuike Lawrence Orji-Oko
+**Author:** *Chibuike Lawrence Orji-Oko*
 
 ---
 
@@ -12,8 +10,6 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
 ![License](https://img.shields.io/badge/License-Not_Specified-lightgrey.svg)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen.svg)
-
-</div>
 
 ---
 
