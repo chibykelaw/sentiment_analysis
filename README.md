@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1537432376769-00a0b5237b4e?auto=format&fit=crop&w=1400&q=80"
-       alt="Sentiment Analysis Banner"
+  <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80" 
+       alt="Sentiment Analysis Banner" 
        width="70%">
 </p>
 
