@@ -1,4 +1,4 @@
-# Sentiment Analysis of Android App Reviews (CIS4515 Coursework)
+# Sentiment Analysis of Android App Reviews
 
 This repository contains my **MSc Data Science & Artificial Intelligence** coursework for the module **CIS4515 – Practical Data Analysis (Coursework 2)**.
 
