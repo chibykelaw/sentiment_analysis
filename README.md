@@ -138,9 +138,9 @@ python src/evaluate_models.py
 ### 6. Explore analysis in Jupyter Notebook
 jupyter notebook
 
-*Then open:*
+**Then open:**
 
-*notebooks/pda_sentiment_analysis_clean.ipynb*
+**_notebooks/pda_sentiment_analysis_clean.ipynb_**
 
 ---
 ## 📫 Contact
