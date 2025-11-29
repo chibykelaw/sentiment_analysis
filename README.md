@@ -113,4 +113,5 @@ sentiment_analysis/
 ### 1. Create & activate a virtual environment
 
 python -m venv venv
+
 venv\Scripts\activate   # Windows
