@@ -89,8 +89,8 @@ Higher = more positive user sentiment.
 
 ---
 
-<details>
-  <summary><strong>📁 Repository Structure</strong></summary>
+## 📁 Repository Structure
+
 ```text
 sentiment_analysis/
 │
@@ -115,8 +115,7 @@ sentiment_analysis/
     ├── train_models.py        # Model training & saving
     └── evaluate_models.py     # Model evaluation & company scoring
 ```
-</details>
-
+  
 ---
 ## ▶️ Running the Project
 ### 1. Create & activate a virtual environment
