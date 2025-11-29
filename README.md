@@ -53,7 +53,7 @@ sentiment_analysis/
 ├── README.md
 ├── requirements.txt                         # Python dependencies
 └── .gitignore
-```text
+
 
 ---
 
